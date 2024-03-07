@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran</title>
+    <link rel="stylesheet" type="text/css" href="Prak2_Web copy 2.css">
+</head>
+<body>
+
+<form id="registrationForm">
+    <h2>Daftar Akun Baru</h2>
+    <label for="name">Nama:</label>
+    <input type="text" id="name" name="name">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+
+    <label for="password">Kata Sandi:</label>
+    <input type="password" id="password" name="password">
+
+    <label for="hobby">Hobi:</label>
+    <input type="text" id="hobby" name="hobby">
+
+    <label for="interest">Peminatan Konsentrasi:</label>
+    <select id="interest" name="interest">
+        <option value="web development">Pengembangan Web</option>
+        <option value="mobile app development">Pengembangan Aplikasi Mobile</option>
+        <option value="data science">Ilmu Data</option>
+        <option value="artificial intelligence">Kecerdasan Buatan</option>
+        <option value="other">Lainnya</option>
+    </select>
+
+    <label for="religion">Agama:</label>
+    <ul id="religion">
+        <li><input type="radio" id="islam" name="religion" value="Islam"><label for="islam">Islam</label></li>
+        <li><input type="radio" id="christian" name="religion" value="Christian"><label for="christian">Kristen</label></li>
+        <li><input type="radio" id="hindu" name="religion" value="Hindu"><label for="hindu">Hindu</label></li>
+        <li><input type="radio" id="buddha" name="religion" value="Buddha"><label for="buddha">Buddha</label></li>
+        <li><input type="radio" id="other" name="religion" value="Other"><label for="other">Lainnya</label></li>
+    </ul>
+
+    <button type="submit">Daftar</button>
+</form>
+
+</body>
+</html>
